@@ -1,0 +1,165 @@
+.tw-btn{
+    display: flex;
+    justify-content: center;
+    background-color: $tw-color;
+    padding: 15px 20px;
+    font-size: 15px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    img{
+        margin-right: 10px;
+    }
+    &:hover{
+        opacity: .8;
+    }
+    transition: .3s ease-in-out;
+    -webkit-transition: .3s ease-in-out;
+    -moz-transition: .3s ease-in-out;
+    -ms-transition: .3s ease-in-out;
+    -o-transition: .3s ease-in-out;
+
+    &--sm{
+        width: 300px;
+    }
+
+    &--full{
+        width: 100%;
+    }
+}
+
+.card-feature{
+    border: 1.5px solid #C0C0C0;
+    padding: 30px;
+    width: 500px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+
+    &__emoji{
+        font-size: 30px;
+    }
+
+    &__title{
+        font-size: 23px;
+        font-weight: bold;
+        margin: 10px 0;
+    }
+
+    &__description{
+        font-size: 21px;
+    }
+}
+
+.post-tw-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 30px;
+    height: auto;
+    border-radius: 5px;
+    width: 400px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+
+    &__header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__user-content-names{
+        display: flex;
+        flex-direction: column;
+        margin-right: auto;
+    }
+
+    &__avatar{
+        width: 60px;
+        margin-right: 20px;
+        
+    }
+
+    &__name{
+        font-weight: bold;
+    }
+
+    &__comment{
+        margin: 30px 0;
+    }
+
+    &__footer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.card-price{
+    background-color: #FBF8F3;
+    padding: 30px;
+    border-radius: 10px;
+    border: 1.5px solid $c-card;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+
+    &__header{
+        display: flex;
+        flex-direction: column;
+        border-bottom: 1px solid #C0C0C0;
+        padding: 5px 0;
+    }
+
+    &__type-plan{
+        color: $c-tx-color;
+        font-size: 25px;
+    }
+
+    &__price{
+        font-weight: bold;
+        font-size: 50px;
+    }
+
+    &__abb-ty-plan{
+        font-size: 23px;
+        color: $c-tx-color;
+    }
+
+    &__content-benefits-list{
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+        padding: 20px 0;
+        margin-bottom: 15px;
+        border-bottom: 1px solid #C0C0C0;
+    }
+
+    &__benefits-items{
+        display: inline-flex;
+    }
+
+    &__checked-icon{
+        margin-right: 15px;
+    }
+}
+
+/* media */
+@media(max-width: 1240px){
+    .card-feature{
+        width: 100%;
+    }
+}
+
+@media(max-width: 860px){
+    .post-tw-card{
+        width: 100%;
+    }
+}
+

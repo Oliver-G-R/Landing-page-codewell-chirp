@@ -1,0 +1,46 @@
+/* Fuente */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;500&display=swap');
+
+/* Resets */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    word-wrap: break-word;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #fff;
+}
+
+/* Colores */
+$c-primary: #FBF8F3;
+$c-secondary: #D7F5F5;
+$c-tertiary: #1D7797;
+$logo-color: #3180F5;
+$c-card: #FFB230;
+$tw-color: #1DA1F2;
+$c-tx-color: #636363;
+
+/* utilities */
+.wrapper {
+    padding: 0 100px;
+}
+
+.spacing-section{
+    margin-bottom: 70px 
+}
+
+/* media */
+
+@media (max-width: 908px) {
+    .wrapper {
+        padding: 0 30px;
+    }
+}
